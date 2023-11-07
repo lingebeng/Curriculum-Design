@@ -1,2 +1,2 @@
 # curriculum-design
- Those are my curriculum-design during my undergraduate studies!
+ Those are my curriculum designs during my undergraduate studies!
