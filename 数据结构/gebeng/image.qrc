@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/false.jpg</file>
+        <file>image/true.jpg</file>
+        <file>image/love.jpg</file>
+        <file>image/finish.jpg</file>
+        <file>image/favicon.ico</file>
+    </qresource>
+</RCC>
