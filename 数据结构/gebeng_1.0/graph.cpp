@@ -56,12 +56,6 @@ void Create2(Graph2& G,Graph1 tmp)
 						p->adjvex = ne;
 						p->nextarc = G.vertices[i][j].firstarc;
 						G.vertices[i][j].firstarc = p;
-						/*
-						ArcNode* q = new ArcNode;
-						q->adjvex = cur;
-						q->nextarc = G.vertices[ne.x][ne.y].firstarc;
-						G.vertices[ne.x][ne.y].firstarc = q;
-						*/
 					}
 				}
 			}
