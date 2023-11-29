@@ -3,6 +3,7 @@
 #include<random>
 // 这里还要再这一个，且不能与widget.cpp中的重名，会报错！
 int d3[4][2] = { {0,1},{1,0},{0,-1},{-1,0} };
+// 这里没有调用这个函数，这是之前在Visual Studio上写得，建立迷宫是在paintEvent函数里建的！
 void Create1(Graph1& G)
 {
     default_random_engine e;
@@ -37,9 +38,6 @@ void Create2(Graph2& G,Graph1 tmp)
 {
     G.arcnum = 0;
     G.m = tmp.m;G.n =  tmp.n;
-    default_random_engine e;
-    // 生成1的概率为0.3，则生成0的概率为0.7
-    bernoulli_distribution u(0.3);
     for (int i = 1; i <= G.m; i++)
     {
         for (int j = 1; j <= G.n; j++)

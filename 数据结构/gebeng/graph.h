@@ -17,15 +17,17 @@ typedef struct
     //记录路径的点的坐标
     int x, y;
 }Point;
+// 边节点
 typedef struct ArcNode
 {
     Point adjvex;
     struct ArcNode* nextarc;
 }ArcNode;
+// 头节点
 typedef struct
 {
     ArcNode* firstarc;
-}VNode,AdjList[MAXSIZE][MAXSIZE];
+}AdjList[MAXSIZE][MAXSIZE];
 typedef struct
 {
     AdjList vertices;
