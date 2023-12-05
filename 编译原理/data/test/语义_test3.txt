@@ -1,0 +1,6 @@
+begin
+    if a+b*c == d then a:=d;
+    if a==-b then b := a;
+    if true and a <> b then a := b
+end
+

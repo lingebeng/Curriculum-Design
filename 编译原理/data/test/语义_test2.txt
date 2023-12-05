@@ -1,0 +1,5 @@
+begin
+    if a <> b or a > c and a < d
+    then begin a := c;c := d end;
+    if a == e then if a >= f then f:=e
+end

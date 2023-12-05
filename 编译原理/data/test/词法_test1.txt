@@ -1,0 +1,6 @@
+begin
+    if a >= b then b:= a;
+    a = b;
+    if 8_a_b := a_4 then a <> b;
+    if a > b and a < c then a := d
+end

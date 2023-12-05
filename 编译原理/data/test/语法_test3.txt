@@ -1,0 +1,7 @@
+begin
+    if a_1 == a1 then a_ := _a;
+    if a >= b then if a >= a_ then a := _b;
+    begin 
+        a:=v;v:=a;g:=b;_:=rwqwa
+    end
+end

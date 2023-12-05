@@ -1,0 +1,3 @@
+begin
+    if a > b then a:=b;
+    begin a:=b end;

@@ -1,0 +1,4 @@
+begin
+    if a := b then a := c;
+    if a <> b then b := c
+end
