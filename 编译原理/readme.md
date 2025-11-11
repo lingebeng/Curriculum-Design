@@ -14,7 +14,7 @@
 
 ## 二、文件目录介绍
 
-<img src="file_structure.png" alt="文件结构" align="left"/>
+<img src="file_structure.png" alt="文件结构" align="center"/>
 
 ## 三、任务介绍
 
